@@ -1,0 +1,122 @@
+body{
+    background-color: black;
+}
+.about{
+    margin-top: 20px;
+    margin-left: 30px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.about:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
+.events{
+    margin-top: 20px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.events:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
+.hackathons{
+    margin-top: 20px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.hackathons:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
+.announcements{
+    margin-top: 20px;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.announcements:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
+.student-signup{
+    margin-top: 20px;
+    float:right;
+    border-radius: 40px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+}
+.student-signup:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
+.coordinator-signup{
+    margin-top: 20px;
+    float:right;
+    border-radius: 40px;
+    padding: 15px;
+    border-color: rgb(52, 2, 99);
+    color: rgb(178, 103, 249);
+    background-color: black;
+    border-style:solid;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+    font-family: Arial, Helvetica, sans-serif
+}
+.coordinator-signup:hover{
+    background-color:rgb(145, 46, 237);
+    color: black;
+}
