@@ -28,9 +28,9 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
-    border-color: rgb(52, 2, 99);
+    border-color: transparent;
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -48,9 +48,9 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
-    border-color: rgb(52, 2, 99);
+    border-color: transparent;
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -68,9 +68,9 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
-    border-color: rgb(52, 2, 99);
+    border-color: transparent;
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -88,9 +88,9 @@ body{
     padding-left: 25px;
     padding-right: 25px;
     padding-bottom: 15px;
-    border-color: rgb(52, 2, 99);
+    border-color: transparent;
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -111,7 +111,7 @@ body{
     padding-bottom: 15px;
     border-color: rgb(52, 2, 99);
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -123,13 +123,14 @@ body{
     color: black;
 }
 .coordinator-signup{
+    margin-right: 20px;
     margin-top: 20px;
     float:right;
     border-radius: 40px;
     padding: 15px;
     border-color: rgb(52, 2, 99);
     color: rgb(178, 103, 249);
-    background-color: black;
+    background-color: transparent;
     border-style:solid;
     cursor: pointer;
     transition: background-color 0.5s, color 0.5s;
@@ -138,4 +139,55 @@ body{
 .coordinator-signup:hover{
     background-color:rgb(145, 46, 237);
     color: black;
+}
+
+.intro{
+
+    color: rgb(169, 17, 234);
+    text-align: center;
+    font-size: 60px;
+    opacity: 0.6;
+    
+}
+.flash1{
+    background-color: rgb(37, 4, 67);
+    opacity:0.5;
+    color: #e4d4f3;
+    margin-left: 8%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    max-width: 300px;
+    width:300px;
+    height: 250px;
+    float: left;
+    text-align: center;
+}
+.flash2{
+    float:left;
+    background-color: rgb(37, 4, 67);
+    opacity:0.5;
+    color: #e4d4f3;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    max-width: 300px;
+    width:300px;
+    height: 250px;
+    text-align: center;
+}
+.flash3{
+    float:left;
+    background-color: rgb(37, 4, 67);
+    opacity:0.5;
+    color: #e4d4f3;
+    margin-left: 5%;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5%;
+    max-width: 300px;
+    width:300px;
+    height: 250px;
+    text-align: center;
 }
