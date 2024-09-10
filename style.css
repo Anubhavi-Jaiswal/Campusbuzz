@@ -1,25 +1,28 @@
-body{
-    margin:0%;
-    height: 100%
+body {
+    margin: 0;
+    height: 100%;
 }
-.container{
-    margin:0%;
+
+.container {
+    margin: 0;
     height: 100vh;
-    background: linear-gradient(45deg,black,rgb(16, 0, 25),rgb(40, 1, 52),rgb(16,0,25),black);
+    background: linear-gradient(45deg, black, rgb(16, 0, 25), rgb(40, 1, 52), rgb(16, 0, 25), black);
     animation: color 30s ease-in-out infinite;
     background-size: 200% 200%;
 }
-@keyframes color{
-    0%{
+
+@keyframes color {
+    0% {
         background-position: 0 50%;
     }
-    50%{
+    50% {
         background-position: 100% 50%;
     }
-    100%{
+    100% {
         background-position: 0 50%;
     }
 }
+
 .about{
     margin-top: 20px;
     margin-left: 30px;
@@ -149,45 +152,41 @@ body{
     opacity: 0.6;
     
 }
-.flash1{
+
+
+.flash-section {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+
+.flash1, .flash2, .flash3 {
     background-color: rgb(37, 4, 67);
-    opacity:0.5;
+    opacity: 0.5;
     color: #e4d4f3;
-    margin-left: 8%;
-    margin-top: 10px;
     padding: 10px;
     border-radius: 5%;
     max-width: 300px;
-    width:300px;
+    width: 300px;
     height: 250px;
-    float: left;
     text-align: center;
+    margin-top: 10px;
 }
 .flash2{
-    float:left;
-    background-color: rgb(37, 4, 67);
-    opacity:0.5;
-    color: #e4d4f3;
-    margin-left: 5%;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5%;
-    max-width: 300px;
-    width:300px;
-    height: 250px;
-    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px
 }
-.flash3{
-    float:left;
-    background-color: rgb(37, 4, 67);
-    opacity:0.5;
-    color: #e4d4f3;
-    margin-left: 5%;
-    margin-top: 10px;
-    padding: 10px;
-    border-radius: 5%;
-    max-width: 300px;
-    width:300px;
-    height: 250px;
-    text-align: center;
+
+@media only screen and (max-width: 768px) {
+    .flash-section {
+        display: block; 
+        text-align: center; 
+    }
+
+    .flash1, .flash2, .flash3 {
+        width: 90%; 
+        margin: 10px auto; 
+        height: auto; 
+    }
 }
